@@ -1,20 +1,30 @@
 {
-    "name": "ccscrapperbot",
-    "description": "ccscrapperbot",
-    "repository": "https://github.com/Dileepa-Malshan/ccscrapperbot",
-    "stack": "container",
-    "env": {
-        "TOKEN": {
-            "description": "Get bot token from @botfather.",
-            "required": true
-        },
-        "MODE": {
-            "description": "Enter mode.",
-            "required": true
-        },
-        "CHAT_ID_FORWARD": {
-            "description": "Forward Chat id",
-            "required": true
-        }
-    }
+      "name": "CC Scraper",
+      "description": "CC Scraper",
+	  "keywords": [
+         "ccscrapper"
+      ],   
+   "repository": "https://github.com/Dileepa-Malshan/ccscrapperbot",
+   "buildpacks": [
+   {
+      "url": "heroku/python"
+    }     
+  ],       
+   "env": {
+      "TOKEN": {
+         "description": "Your bot token. Get one from @BotFather duh",
+         "required": true,
+         "value": ""
+      },
+      "MODE": {
+         "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
+         "required": true,
+         "value": ""
+      },
+      "CHAT_ID_FORWARD": {
+         "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
+         "required": false,
+         "value": ""
+      }
+   }
 }
