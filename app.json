@@ -1,0 +1,21 @@
+{
+    "name": "ccscrapperbot",
+    "description": "ccscrapperbot",
+    "repository": "https://github.com/Dileepa-Malshan/ccscrapperbot",
+    "repository": "https://github.com/Dileepa-Malshan/ccscrapperbot",
+    "stack": "container",
+    "env": {
+        "TOKEN": {
+            "description": "Get bot token from @botfather.",
+            "required": true
+        },
+        "MODE": {
+            "description": "Enter mode.",
+            "required": true
+        },
+        "CHAT_ID_FORWARD": {
+            "description": "Forward Chat id",
+            "required": true
+        }
+    }
+}
