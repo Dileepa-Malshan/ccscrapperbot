@@ -2,7 +2,6 @@
     "name": "ccscrapperbot",
     "description": "ccscrapperbot",
     "repository": "https://github.com/Dileepa-Malshan/ccscrapperbot",
-    "repository": "https://github.com/Dileepa-Malshan/ccscrapperbot",
     "stack": "container",
     "env": {
         "TOKEN": {
